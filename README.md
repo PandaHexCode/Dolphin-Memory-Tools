@@ -1,5 +1,5 @@
 # Dolphin-Memory-Tools
-Python scripts for Dolphin Memory hacking with using [Py-dolphin-memory-engine library]((https://github.com/henriquegemignani/py-dolphin-memory-engine)), before using the scripts you need to install that library.
+Python scripts for Dolphin Memory hacking with using [Py-dolphin-memory-engine library](https://github.com/henriquegemignani/py-dolphin-memory-engine), before using the scripts you need to install that library.
 
 # DolphinDestroyer.py
 A script bassicaly to destroy the memory just for fun, 
