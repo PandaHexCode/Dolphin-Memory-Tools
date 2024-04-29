@@ -13,7 +13,7 @@ def get_input(prompt, input_type):
 
 start_address = get_input("Please write the startAdress value: ", lambda x: int(x, 16))
 
-maxSteps = get_input("Please write the maxSteps: ", int)
+maxSteps = get_input("Please write the maxSteps value: ", int)
 
 offset = 0
 
