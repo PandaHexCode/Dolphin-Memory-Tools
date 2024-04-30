@@ -1,6 +1,8 @@
 import dolphin_memory_engine
 import random
 import tkinter as tk
+import time
+from threading import Thread
 
 dolphin_memory_engine.hook()
 
@@ -21,7 +23,9 @@ def start_loop():
     loop_active = True
     start_address_int = int(start_address.get(), 16)
     start_stop_button.config(text="Stop Loop")
-    loop(start_address_int, offset)
+
+    thread = Thread(target=loop, args=(start_address_int, offset))
+    thread.start()
 
 def stop_loop():
     global loop_active
@@ -76,6 +80,10 @@ def loop(start_addr, offset):
                  offset += step_int
             
         window.update()
+        loop_delay = float(delay.get())
+        if loop_delay != 0.0:
+           time.sleep(loop_delay)
+           # window.after(int(loop_delay * 1000))
 
 bg_color = '#333333'
 fg_color = '#ffffff'
@@ -87,17 +95,30 @@ window.config(bg=bg_color)
 tk.Label(window, text="Start Address:", bg=bg_color, fg=fg_color).pack()
 start_address = tk.StringVar()
 start_entry = tk.Entry(window, textvariable=start_address)
+if not start_entry.get():
+    start_entry.insert(0, "80B48F6C")
 start_entry.pack()
 
 tk.Label(window, text="Test Value:", bg=bg_color, fg=fg_color).pack()
 test_value = tk.StringVar()
 test_entry = tk.Entry(window, textvariable=test_value)
+if not test_entry.get():
+    test_entry.insert(0, "700")
 test_entry.pack()
 
 tk.Label(window, text="Step/MaxSteps:", bg=bg_color, fg=fg_color).pack()
 step = tk.StringVar()
 step_entry = tk.Entry(window, textvariable=step)
+if not step_entry.get():
+    step_entry.insert(0, "4")
 step_entry.pack()
+
+tk.Label(window, text="Loop Delay:", bg=bg_color, fg=fg_color).pack()
+delay = tk.DoubleVar()
+delay_entry = tk.Entry(window, textvariable=delay)
+if not delay_entry.get():
+    delay_entry.insert(0, "0.0")
+delay_entry.pack()
 
 output_label = tk.Label(window, text="", bg=bg_color, fg=fg_color)
 output_label.pack()
