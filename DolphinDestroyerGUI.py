@@ -73,7 +73,7 @@ def loop(start_addr, offset):
             else:
                  offset += random.randint(0, step_int)
         else:
-            dolphin_memory_engine.write_float(memory_address, test_value)      
+            dolphin_memory_engine.write_float(memory_address, test_value_int)      
             if reverse_checkbox_var.get():
                  offset -= step_int
             else:
