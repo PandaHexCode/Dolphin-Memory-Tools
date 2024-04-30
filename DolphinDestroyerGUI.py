@@ -7,17 +7,26 @@ dolphin_memory_engine.hook()
 offset = 0
 loop_paused = False
 
+def start_stop_loop():
+    global loop_active
+    if not loop_active:
+        start_loop()
+    else:
+        stop_loop()
+
 def start_loop():
     global loop_active
     global start_address
     global test_value
     loop_active = True
     start_address_int = int(start_address.get(), 16)
+    start_stop_button.config(text="Stop Loop")
     loop(start_address_int, offset)
 
 def stop_loop():
     global loop_active
     loop_active = False
+    start_stop_button.config(text="Start Loop")
 
 def toogle_pause_loop():
     global loop_paused
@@ -93,11 +102,8 @@ step_entry.pack()
 output_label = tk.Label(window, text="", bg=bg_color, fg=fg_color)
 output_label.pack()
 
-start_button = tk.Button(window, text="Start Loop", command=start_loop)
-start_button.pack()
-
-cancel_button = tk.Button(window, text="Stop Loop", command=stop_loop)
-cancel_button.pack()
+start_stop_button = tk.Button(window, text="Start Loop", command=start_stop_loop)
+start_stop_button.pack()
 
 pause_resume_button = tk.Button(window, text="Pause Loop", command=toogle_pause_loop)
 pause_resume_button.pack()
