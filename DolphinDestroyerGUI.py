@@ -66,8 +66,8 @@ def loop(start_addr, offset):
             continue
 
         if random_checkbox_var.get():
-            test_value = random.randint(-5000, 5000)
-            dolphin_memory_engine.write_float(memory_address, test_value)
+            test_value_rnd = random.randint(-5000, 5000)
+            dolphin_memory_engine.write_float(memory_address, test_value_rnd)
             if reverse_checkbox_var.get():
                  offset -= random.randint(0, step_int)
             else:
