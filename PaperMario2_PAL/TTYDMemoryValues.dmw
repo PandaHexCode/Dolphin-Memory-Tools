@@ -1,0 +1,460 @@
+{
+    "watchList": [
+        {
+            "groupEntries": [
+                {
+                    "address": "80B48F6C",
+                    "baseIndex": 0,
+                    "label": "PosX",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80B48F74",
+                    "baseIndex": 0,
+                    "label": "PosZ",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "80B48F70",
+                    "baseIndex": 0,
+                    "label": "PosY",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "8042D4FC",
+                    "baseIndex": 0,
+                    "label": "MarioSpeedXMultipler",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "8042D528",
+                    "baseIndex": 0,
+                    "label": "MarioSpeedZMultipler",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80B48EF7",
+                    "baseIndex": 0,
+                    "label": "CanWalkZ",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80B48F2B",
+                    "baseIndex": 0,
+                    "label": "MarioAnimationBoneIdkWhat",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "8042D428",
+                    "baseIndex": 0,
+                    "label": "JumpDownGravityOrSmth",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "8042D43C",
+                    "baseIndex": 0,
+                    "label": "JumpUpGravityOrSmth",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "8042CAA8",
+                    "baseIndex": 0,
+                    "label": "MarioIdleSpeedX",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "802CD768",
+                    "baseIndex": 0,
+                    "label": "WeirdSpeedMultipler",
+                    "typeIndex": 4,
+                    "unsigned": false
+                },
+                {
+                    "address": "802CD770",
+                    "baseIndex": 0,
+                    "label": "WeirdSpeedMultipler2",
+                    "typeIndex": 4,
+                    "unsigned": false
+                },
+                {
+                    "address": "8042D334",
+                    "baseIndex": 0,
+                    "label": "CollsionSomething",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80B48EE0",
+                    "baseIndex": 0,
+                    "label": "CanMove",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80B48FA8",
+                    "baseIndex": 0,
+                    "label": "MarioScaleX",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80B48FAC",
+                    "baseIndex": 0,
+                    "label": "MarioScaleY",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80B48FA5",
+                    "baseIndex": 0,
+                    "label": "MarioRotatationZ",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80B48FB0",
+                    "baseIndex": 0,
+                    "label": "MarioSpriteOrderIDK",
+                    "typeIndex": 0,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Mario"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "80D352D4",
+                    "baseIndex": 0,
+                    "label": "MarioCurrentSelectedAction",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "80D33B40",
+                    "baseIndex": 0,
+                    "label": "CurrentPlayer",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "80D34E44",
+                    "baseIndex": 0,
+                    "label": "CurrentPlayerAction",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "80D34E50",
+                    "baseIndex": 0,
+                    "label": "CurrentPlayerActionIcon",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "80D4DA5C",
+                    "baseIndex": 0,
+                    "label": "BattleMarioPosX",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "80D4DB94",
+                    "baseIndex": 0,
+                    "label": "BattleMarioPosY",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "80D4DB98",
+                    "baseIndex": 0,
+                    "label": "OtherMarioPosYIDK",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "80D4DB99",
+                    "baseIndex": 0,
+                    "label": "OtherMarioPosYIDK2",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "80D4DB68",
+                    "baseIndex": 0,
+                    "label": "RotateFrom",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "80D4E784",
+                    "baseIndex": 0,
+                    "label": "BattleMarioAnimation",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "80D4F4DC",
+                    "baseIndex": 0,
+                    "label": "BattleGumbrinaPosX",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "80D345FC",
+                    "baseIndex": 0,
+                    "label": "CurrentSelectedEnemy",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "80D4DB24",
+                    "baseIndex": 1,
+                    "label": "IsBattleMarioVisible",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "80D4DB33",
+                    "baseIndex": 0,
+                    "label": "FlowerPoints",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "80D4DB2F",
+                    "baseIndex": 1,
+                    "label": "FlowerPointsMax",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "80D4DB2C",
+                    "baseIndex": 0,
+                    "label": "BattleMarioHealth",
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "80D4DB28",
+                    "baseIndex": 0,
+                    "label": "BattleMarioMaxHealth",
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "80D4DB35",
+                    "baseIndex": 0,
+                    "label": "MarioSize",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "80D4DB55",
+                    "baseIndex": 0,
+                    "label": "RandomDeathIDK",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "80D4DB80",
+                    "baseIndex": 0,
+                    "label": "WeirdMarioPosIDK",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "80D4DB8F",
+                    "baseIndex": 0,
+                    "label": "IHaveNoIdea",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "80D4DB95",
+                    "baseIndex": 0,
+                    "label": "WeirdGravityIDK",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "80D4DB90",
+                    "baseIndex": 0,
+                    "label": "IHaveNoIdea2",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80D4DBA4",
+                    "baseIndex": 0,
+                    "label": "WeirdAttackJumpHeightIDK",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80D4DB38",
+                            "baseIndex": 1,
+                            "label": "SleepEffectIDK",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80D4DB3C",
+                            "baseIndex": 0,
+                            "label": "Poison",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80D4DB3C",
+                            "baseIndex": 4,
+                            "label": "OtherEffects",
+                            "length": 16,
+                            "typeIndex": 6,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80D4DB4C",
+                            "baseIndex": 4,
+                            "label": "OtherEffects2",
+                            "length": 6,
+                            "typeIndex": 6,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80D4DB3B",
+                            "baseIndex": 1,
+                            "label": "No label",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80D4DB3A",
+                            "baseIndex": 1,
+                            "label": "No label",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Effects"
+                }
+            ],
+            "groupName": "Battle (Broken)"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "80B49271",
+                    "baseIndex": 0,
+                    "label": "MarioLives",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "80B49272",
+                    "baseIndex": 0,
+                    "label": "MarioMaxLives",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "80B49274",
+                    "baseIndex": 0,
+                    "label": "EP",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "80B49276",
+                    "baseIndex": 0,
+                    "label": "EPMax",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "80B49278",
+                    "baseIndex": 0,
+                    "label": "Coins",
+                    "typeIndex": 0,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Counts"
+        },
+        {
+            "address": "80B48FCC",
+            "baseIndex": 0,
+            "label": "CamX",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "80B48FD4",
+            "baseIndex": 0,
+            "label": "CamZ",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "80B48EEF",
+            "baseIndex": 0,
+            "label": "TextBoxTrigger",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "80B48F18",
+            "baseIndex": 0,
+            "label": "TextBlackBoxState",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "800366EC",
+            "baseIndex": 0,
+            "label": "StartOrEndDialogFunc(1610612736 on freeze for cancel)",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "803E4D90",
+            "baseIndex": 0,
+            "label": "FreeDialogVar(Set to 0, 256)",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "8042BA70",
+            "baseIndex": 0,
+            "label": "DebugBBA",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "8042B098",
+            "baseIndex": 0,
+            "label": "LoadZoneOutputScene",
+            "typeIndex": 2,
+            "unsigned": true
+        },
+        {
+            "address": "8042B09C",
+            "baseIndex": 0,
+            "label": "LoadZoneOutputPosIDK",
+            "typeIndex": 2,
+            "unsigned": true
+        }
+    ]
+}
