@@ -1,0 +1,46 @@
+{
+    "watchList": [
+        {
+            "address": "805104B4",
+            "baseIndex": 0,
+            "label": "MarioPosX",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "805104B8",
+            "baseIndex": 0,
+            "label": "MarioPosY",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "805104BC",
+            "baseIndex": 0,
+            "label": "MarioPosZ",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "80513CE0",
+            "baseIndex": 0,
+            "label": "MarioHP",
+            "typeIndex": 2,
+            "unsigned": true
+        },
+        {
+            "address": "80511A40",
+            "baseIndex": 0,
+            "label": "MarioScore",
+            "typeIndex": 2,
+            "unsigned": true
+        },
+        {
+            "address": "80511A3C",
+            "baseIndex": 0,
+            "label": "3DTimer",
+            "typeIndex": 2,
+            "unsigned": true
+        }
+    ]
+}
