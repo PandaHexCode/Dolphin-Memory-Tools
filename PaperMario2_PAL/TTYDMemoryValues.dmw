@@ -127,231 +127,16 @@
                     "label": "MarioSpriteOrderIDK",
                     "typeIndex": 0,
                     "unsigned": false
+                },
+                {
+                    "address": "80B48F80",
+                    "baseIndex": 0,
+                    "label": "MarioSpriteZ",
+                    "typeIndex": 3,
+                    "unsigned": false
                 }
             ],
             "groupName": "Mario"
-        },
-        {
-            "groupEntries": [
-                {
-                    "address": "80D352D4",
-                    "baseIndex": 0,
-                    "label": "MarioCurrentSelectedAction",
-                    "typeIndex": 2,
-                    "unsigned": true
-                },
-                {
-                    "address": "80D33B40",
-                    "baseIndex": 0,
-                    "label": "CurrentPlayer",
-                    "typeIndex": 2,
-                    "unsigned": true
-                },
-                {
-                    "address": "80D34E44",
-                    "baseIndex": 0,
-                    "label": "CurrentPlayerAction",
-                    "typeIndex": 2,
-                    "unsigned": true
-                },
-                {
-                    "address": "80D34E50",
-                    "baseIndex": 0,
-                    "label": "CurrentPlayerActionIcon",
-                    "typeIndex": 2,
-                    "unsigned": true
-                },
-                {
-                    "address": "80D4DA5C",
-                    "baseIndex": 0,
-                    "label": "BattleMarioPosX",
-                    "typeIndex": 2,
-                    "unsigned": true
-                },
-                {
-                    "address": "80D4DB94",
-                    "baseIndex": 0,
-                    "label": "BattleMarioPosY",
-                    "typeIndex": 0,
-                    "unsigned": false
-                },
-                {
-                    "address": "80D4DB98",
-                    "baseIndex": 0,
-                    "label": "OtherMarioPosYIDK",
-                    "typeIndex": 0,
-                    "unsigned": false
-                },
-                {
-                    "address": "80D4DB99",
-                    "baseIndex": 0,
-                    "label": "OtherMarioPosYIDK2",
-                    "typeIndex": 0,
-                    "unsigned": false
-                },
-                {
-                    "address": "80D4DB68",
-                    "baseIndex": 0,
-                    "label": "RotateFrom",
-                    "typeIndex": 2,
-                    "unsigned": true
-                },
-                {
-                    "address": "80D4E784",
-                    "baseIndex": 0,
-                    "label": "BattleMarioAnimation",
-                    "typeIndex": 2,
-                    "unsigned": true
-                },
-                {
-                    "address": "80D4F4DC",
-                    "baseIndex": 0,
-                    "label": "BattleGumbrinaPosX",
-                    "typeIndex": 2,
-                    "unsigned": true
-                },
-                {
-                    "address": "80D345FC",
-                    "baseIndex": 0,
-                    "label": "CurrentSelectedEnemy",
-                    "typeIndex": 2,
-                    "unsigned": true
-                },
-                {
-                    "address": "80D4DB24",
-                    "baseIndex": 1,
-                    "label": "IsBattleMarioVisible",
-                    "typeIndex": 0,
-                    "unsigned": false
-                },
-                {
-                    "address": "80D4DB33",
-                    "baseIndex": 0,
-                    "label": "FlowerPoints",
-                    "typeIndex": 0,
-                    "unsigned": false
-                },
-                {
-                    "address": "80D4DB2F",
-                    "baseIndex": 1,
-                    "label": "FlowerPointsMax",
-                    "typeIndex": 0,
-                    "unsigned": false
-                },
-                {
-                    "address": "80D4DB2C",
-                    "baseIndex": 0,
-                    "label": "BattleMarioHealth",
-                    "typeIndex": 1,
-                    "unsigned": false
-                },
-                {
-                    "address": "80D4DB28",
-                    "baseIndex": 0,
-                    "label": "BattleMarioMaxHealth",
-                    "typeIndex": 1,
-                    "unsigned": false
-                },
-                {
-                    "address": "80D4DB35",
-                    "baseIndex": 0,
-                    "label": "MarioSize",
-                    "typeIndex": 0,
-                    "unsigned": false
-                },
-                {
-                    "address": "80D4DB55",
-                    "baseIndex": 0,
-                    "label": "RandomDeathIDK",
-                    "typeIndex": 0,
-                    "unsigned": false
-                },
-                {
-                    "address": "80D4DB80",
-                    "baseIndex": 0,
-                    "label": "WeirdMarioPosIDK",
-                    "typeIndex": 0,
-                    "unsigned": false
-                },
-                {
-                    "address": "80D4DB8F",
-                    "baseIndex": 0,
-                    "label": "IHaveNoIdea",
-                    "typeIndex": 0,
-                    "unsigned": false
-                },
-                {
-                    "address": "80D4DB95",
-                    "baseIndex": 0,
-                    "label": "WeirdGravityIDK",
-                    "typeIndex": 0,
-                    "unsigned": false
-                },
-                {
-                    "address": "80D4DB90",
-                    "baseIndex": 0,
-                    "label": "IHaveNoIdea2",
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "80D4DBA4",
-                    "baseIndex": 0,
-                    "label": "WeirdAttackJumpHeightIDK",
-                    "typeIndex": 0,
-                    "unsigned": false
-                },
-                {
-                    "groupEntries": [
-                        {
-                            "address": "80D4DB38",
-                            "baseIndex": 1,
-                            "label": "SleepEffectIDK",
-                            "typeIndex": 0,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80D4DB3C",
-                            "baseIndex": 0,
-                            "label": "Poison",
-                            "typeIndex": 0,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80D4DB3C",
-                            "baseIndex": 4,
-                            "label": "OtherEffects",
-                            "length": 16,
-                            "typeIndex": 6,
-                            "unsigned": true
-                        },
-                        {
-                            "address": "80D4DB4C",
-                            "baseIndex": 4,
-                            "label": "OtherEffects2",
-                            "length": 6,
-                            "typeIndex": 6,
-                            "unsigned": true
-                        },
-                        {
-                            "address": "80D4DB3B",
-                            "baseIndex": 1,
-                            "label": "No label",
-                            "typeIndex": 0,
-                            "unsigned": false
-                        },
-                        {
-                            "address": "80D4DB3A",
-                            "baseIndex": 1,
-                            "label": "No label",
-                            "typeIndex": 0,
-                            "unsigned": false
-                        }
-                    ],
-                    "groupName": "Effects"
-                }
-            ],
-            "groupName": "Battle (Broken)"
         },
         {
             "groupEntries": [
@@ -366,32 +151,72 @@
                     "address": "80B49272",
                     "baseIndex": 0,
                     "label": "MarioMaxLives",
-                    "typeIndex": 0,
+                    "typeIndex": 1,
                     "unsigned": false
                 },
                 {
                     "address": "80B49274",
                     "baseIndex": 0,
-                    "label": "EP",
-                    "typeIndex": 0,
+                    "label": "BP",
+                    "typeIndex": 1,
                     "unsigned": false
                 },
                 {
                     "address": "80B49276",
                     "baseIndex": 0,
-                    "label": "EPMax",
-                    "typeIndex": 0,
+                    "label": "BPMax",
+                    "typeIndex": 1,
                     "unsigned": false
                 },
                 {
                     "address": "80B49278",
                     "baseIndex": 0,
                     "label": "Coins",
-                    "typeIndex": 0,
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "80B49296",
+                    "baseIndex": 0,
+                    "label": "StarPoints",
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "80B4929A",
+                    "baseIndex": 0,
+                    "label": "StarPieces",
+                    "typeIndex": 1,
                     "unsigned": false
                 }
             ],
             "groupName": "Counts"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "80B49098",
+                    "baseIndex": 0,
+                    "label": "IDKGetStarPiece",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "80B491B8",
+                    "baseIndex": 0,
+                    "label": "LooseCoins",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "80B369A0",
+                    "baseIndex": 0,
+                    "label": "GroundBlack",
+                    "typeIndex": 0,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Weird"
         },
         {
             "address": "80B48FCC",
@@ -405,6 +230,20 @@
             "baseIndex": 0,
             "label": "CamZ",
             "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "80B4902C",
+            "baseIndex": 0,
+            "label": "CamZoom",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803E6DEC",
+            "baseIndex": 0,
+            "label": "Sequenze",
+            "typeIndex": 2,
             "unsigned": true
         },
         {
@@ -443,16 +282,35 @@
             "unsigned": false
         },
         {
-            "address": "8042B098",
-            "baseIndex": 0,
-            "label": "LoadZoneOutputScene",
-            "typeIndex": 2,
-            "unsigned": true
+            "groupEntries": [
+                {
+                    "address": "80B3694C",
+                    "baseIndex": 0,
+                    "label": "GORRandomGoombaPosX",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "80B36950",
+                    "baseIndex": 0,
+                    "label": "GORRandomGoombaPosY",
+                    "typeIndex": 3,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Gor_01"
         },
         {
             "address": "8042B09C",
             "baseIndex": 0,
             "label": "LoadZoneOutputPosIDK",
+            "typeIndex": 2,
+            "unsigned": true
+        },
+        {
+            "address": "8042B098",
+            "baseIndex": 0,
+            "label": "LoadZoneOutputScene",
             "typeIndex": 2,
             "unsigned": true
         }
