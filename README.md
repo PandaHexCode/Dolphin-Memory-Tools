@@ -10,4 +10,8 @@ Note: it is best to make savestates on shortcuts, because it can very easily lea
 ## YouTube-Showcase
 [![Image](https://img.youtube.com/vi/Ve9XrLx6ZWM/0.jpg)](https://youtu.be/Ve9XrLx6ZWM)
 
+# Dolphin-Cheat-Tables (Memory Values)
+Cheat Tables for [Dolphin Memory Engine](https://github.com/aldelaro5/dolphin-memory-engine).
+![Showcase2](PaperMario2PALCheatTableScreenshot.png)
+
 # More soon(maybe)
