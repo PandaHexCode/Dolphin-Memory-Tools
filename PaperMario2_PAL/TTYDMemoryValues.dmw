@@ -1,8 +1,13 @@
 {
+    "structDefs": {
+        "rootNode": [
+        ]
+    },
     "watchList": [
         {
             "groupEntries": [
                 {
+                    "absoluteBranch": false,
                     "address": "80B48F6C",
                     "baseIndex": 0,
                     "label": "PosX",
@@ -10,6 +15,7 @@
                     "unsigned": false
                 },
                 {
+                    "absoluteBranch": false,
                     "address": "80B48F74",
                     "baseIndex": 0,
                     "label": "PosZ",
@@ -17,6 +23,7 @@
                     "unsigned": true
                 },
                 {
+                    "absoluteBranch": false,
                     "address": "80B48F70",
                     "baseIndex": 0,
                     "label": "PosY",
@@ -24,6 +31,7 @@
                     "unsigned": true
                 },
                 {
+                    "absoluteBranch": false,
                     "address": "8042D4FC",
                     "baseIndex": 0,
                     "label": "MarioSpeedXMultipler",
@@ -31,6 +39,7 @@
                     "unsigned": false
                 },
                 {
+                    "absoluteBranch": false,
                     "address": "8042D528",
                     "baseIndex": 0,
                     "label": "MarioSpeedZMultipler",
@@ -38,6 +47,7 @@
                     "unsigned": false
                 },
                 {
+                    "absoluteBranch": false,
                     "address": "80B48EF7",
                     "baseIndex": 0,
                     "label": "CanWalkZ",
@@ -45,6 +55,7 @@
                     "unsigned": false
                 },
                 {
+                    "absoluteBranch": false,
                     "address": "80B48F2B",
                     "baseIndex": 0,
                     "label": "MarioAnimationBoneIdkWhat",
@@ -52,6 +63,7 @@
                     "unsigned": false
                 },
                 {
+                    "absoluteBranch": false,
                     "address": "8042D428",
                     "baseIndex": 0,
                     "label": "JumpDownGravityOrSmth",
@@ -59,6 +71,7 @@
                     "unsigned": false
                 },
                 {
+                    "absoluteBranch": false,
                     "address": "8042D43C",
                     "baseIndex": 0,
                     "label": "JumpUpGravityOrSmth",
@@ -66,6 +79,7 @@
                     "unsigned": false
                 },
                 {
+                    "absoluteBranch": false,
                     "address": "8042CAA8",
                     "baseIndex": 0,
                     "label": "MarioIdleSpeedX",
@@ -73,6 +87,7 @@
                     "unsigned": false
                 },
                 {
+                    "absoluteBranch": false,
                     "address": "802CD768",
                     "baseIndex": 0,
                     "label": "WeirdSpeedMultipler",
@@ -80,6 +95,7 @@
                     "unsigned": false
                 },
                 {
+                    "absoluteBranch": false,
                     "address": "802CD770",
                     "baseIndex": 0,
                     "label": "WeirdSpeedMultipler2",
@@ -87,6 +103,7 @@
                     "unsigned": false
                 },
                 {
+                    "absoluteBranch": false,
                     "address": "8042D334",
                     "baseIndex": 0,
                     "label": "CollsionSomething",
@@ -94,6 +111,7 @@
                     "unsigned": false
                 },
                 {
+                    "absoluteBranch": false,
                     "address": "80B48EE0",
                     "baseIndex": 0,
                     "label": "CanMove",
@@ -101,6 +119,7 @@
                     "unsigned": false
                 },
                 {
+                    "absoluteBranch": false,
                     "address": "80B48FA8",
                     "baseIndex": 0,
                     "label": "MarioScaleX",
@@ -108,6 +127,7 @@
                     "unsigned": false
                 },
                 {
+                    "absoluteBranch": false,
                     "address": "80B48FAC",
                     "baseIndex": 0,
                     "label": "MarioScaleY",
@@ -115,6 +135,15 @@
                     "unsigned": false
                 },
                 {
+                    "absoluteBranch": false,
+                    "address": "80B4908C",
+                    "baseIndex": 0,
+                    "label": "MarioFlipX",
+                    "typeIndex": 1,
+                    "unsigned": true
+                },
+                {
+                    "absoluteBranch": false,
                     "address": "80B48FA5",
                     "baseIndex": 0,
                     "label": "MarioRotatationZ",
@@ -122,6 +151,7 @@
                     "unsigned": false
                 },
                 {
+                    "absoluteBranch": false,
                     "address": "80B48FB0",
                     "baseIndex": 0,
                     "label": "MarioSpriteOrderIDK",
@@ -129,6 +159,7 @@
                     "unsigned": false
                 },
                 {
+                    "absoluteBranch": false,
                     "address": "80B48F80",
                     "baseIndex": 0,
                     "label": "MarioSpriteZ",
@@ -139,8 +170,39 @@
             "groupName": "Mario"
         },
         {
+            "expanded": true,
             "groupEntries": [
                 {
+                    "absoluteBranch": false,
+                    "address": "8072F190",
+                    "baseIndex": 0,
+                    "label": "PartnerFunction",
+                    "typeIndex": 1,
+                    "unsigned": true
+                },
+                {
+                    "absoluteBranch": false,
+                    "address": "8072F194",
+                    "baseIndex": 0,
+                    "label": "HasPartner",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "absoluteBranch": false,
+                    "address": "8072F1CC",
+                    "baseIndex": 0,
+                    "label": "PartnerRotation",
+                    "typeIndex": 3,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Partner"
+        },
+        {
+            "groupEntries": [
+                {
+                    "absoluteBranch": false,
                     "address": "80B49271",
                     "baseIndex": 0,
                     "label": "MarioLives",
@@ -148,6 +210,7 @@
                     "unsigned": false
                 },
                 {
+                    "absoluteBranch": false,
                     "address": "80B49272",
                     "baseIndex": 0,
                     "label": "MarioMaxLives",
@@ -155,6 +218,7 @@
                     "unsigned": false
                 },
                 {
+                    "absoluteBranch": false,
                     "address": "80B49274",
                     "baseIndex": 0,
                     "label": "BP",
@@ -162,6 +226,7 @@
                     "unsigned": false
                 },
                 {
+                    "absoluteBranch": false,
                     "address": "80B49276",
                     "baseIndex": 0,
                     "label": "BPMax",
@@ -169,6 +234,7 @@
                     "unsigned": false
                 },
                 {
+                    "absoluteBranch": false,
                     "address": "80B49278",
                     "baseIndex": 0,
                     "label": "Coins",
@@ -176,6 +242,7 @@
                     "unsigned": false
                 },
                 {
+                    "absoluteBranch": false,
                     "address": "80B49296",
                     "baseIndex": 0,
                     "label": "StarPoints",
@@ -183,6 +250,7 @@
                     "unsigned": false
                 },
                 {
+                    "absoluteBranch": false,
                     "address": "80B4929A",
                     "baseIndex": 0,
                     "label": "StarPieces",
@@ -195,6 +263,7 @@
         {
             "groupEntries": [
                 {
+                    "absoluteBranch": false,
                     "address": "80B49098",
                     "baseIndex": 0,
                     "label": "IDKGetStarPiece",
@@ -202,6 +271,7 @@
                     "unsigned": false
                 },
                 {
+                    "absoluteBranch": false,
                     "address": "80B491B8",
                     "baseIndex": 0,
                     "label": "LooseCoins",
@@ -209,6 +279,7 @@
                     "unsigned": false
                 },
                 {
+                    "absoluteBranch": false,
                     "address": "80B369A0",
                     "baseIndex": 0,
                     "label": "GroundBlack",
@@ -219,6 +290,7 @@
             "groupName": "Weird"
         },
         {
+            "absoluteBranch": false,
             "address": "80B48FCC",
             "baseIndex": 0,
             "label": "CamX",
@@ -226,6 +298,7 @@
             "unsigned": true
         },
         {
+            "absoluteBranch": false,
             "address": "80B48FD4",
             "baseIndex": 0,
             "label": "CamZ",
@@ -233,6 +306,7 @@
             "unsigned": true
         },
         {
+            "absoluteBranch": false,
             "address": "80B4902C",
             "baseIndex": 0,
             "label": "CamZoom",
@@ -240,6 +314,7 @@
             "unsigned": false
         },
         {
+            "absoluteBranch": false,
             "address": "803E6DEC",
             "baseIndex": 0,
             "label": "Sequenze",
@@ -247,6 +322,7 @@
             "unsigned": true
         },
         {
+            "absoluteBranch": false,
             "address": "80B48EEF",
             "baseIndex": 0,
             "label": "TextBoxTrigger",
@@ -254,6 +330,7 @@
             "unsigned": false
         },
         {
+            "absoluteBranch": false,
             "address": "80B48F18",
             "baseIndex": 0,
             "label": "TextBlackBoxState",
@@ -261,6 +338,7 @@
             "unsigned": false
         },
         {
+            "absoluteBranch": false,
             "address": "800366EC",
             "baseIndex": 0,
             "label": "StartOrEndDialogFunc(1610612736 on freeze for cancel)",
@@ -268,6 +346,7 @@
             "unsigned": false
         },
         {
+            "absoluteBranch": false,
             "address": "803E4D90",
             "baseIndex": 0,
             "label": "FreeDialogVar(Set to 0, 256)",
@@ -275,6 +354,7 @@
             "unsigned": false
         },
         {
+            "absoluteBranch": false,
             "address": "8042BA70",
             "baseIndex": 0,
             "label": "DebugBBA",
@@ -284,6 +364,7 @@
         {
             "groupEntries": [
                 {
+                    "absoluteBranch": false,
                     "address": "80B3694C",
                     "baseIndex": 0,
                     "label": "GORRandomGoombaPosX",
@@ -291,6 +372,7 @@
                     "unsigned": true
                 },
                 {
+                    "absoluteBranch": false,
                     "address": "80B36950",
                     "baseIndex": 0,
                     "label": "GORRandomGoombaPosY",
@@ -301,6 +383,7 @@
             "groupName": "Gor_01"
         },
         {
+            "absoluteBranch": false,
             "address": "8042B09C",
             "baseIndex": 0,
             "label": "LoadZoneOutputPosIDK",
@@ -308,6 +391,7 @@
             "unsigned": true
         },
         {
+            "absoluteBranch": false,
             "address": "8042B098",
             "baseIndex": 0,
             "label": "LoadZoneOutputScene",
