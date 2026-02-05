@@ -1,0 +1,223 @@
+{
+    "structDefs": {
+        "rootNode": [
+        ]
+    },
+    "watchList": [
+        {
+            "absoluteBranch": false,
+            "address": "80354E90",
+            "baseIndex": 0,
+            "label": "Lives",
+            "typeIndex": 2,
+            "unsigned": true
+        },
+        {
+            "expanded": true,
+            "groupEntries": [
+                {
+                    "absoluteBranch": false,
+                    "address": "8154B8B4",
+                    "baseIndex": 0,
+                    "label": "MarioPOSY",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "absoluteBranch": false,
+                    "address": "8154B8B0",
+                    "baseIndex": 0,
+                    "label": "MarioPOSX",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "absoluteBranch": false,
+                    "address": "8154B90F",
+                    "baseIndex": 0,
+                    "label": "MarioVelX",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "absoluteBranch": false,
+                    "address": "8154B8F0",
+                    "baseIndex": 0,
+                    "label": "MarioVelY",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "absoluteBranch": false,
+                    "address": "8154C8D8",
+                    "baseIndex": 0,
+                    "label": "MarioOnGround",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "absoluteBranch": false,
+                    "address": "8154CCE4",
+                    "baseIndex": 0,
+                    "label": "MarioItem",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "absoluteBranch": false,
+                    "address": "8154B8E0",
+                    "baseIndex": 0,
+                    "label": "MarioScaleX",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "absoluteBranch": false,
+                    "address": "8154B8E4",
+                    "baseIndex": 0,
+                    "label": "MarioScaleY",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "absoluteBranch": false,
+                    "address": "8154B978",
+                    "baseIndex": 0,
+                    "label": "MarioAllowInteraction",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "absoluteBranch": false,
+                    "address": "8154BBB7",
+                    "baseIndex": 0,
+                    "label": "MarioDie",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "absoluteBranch": false,
+                    "address": "8154B908",
+                    "baseIndex": 0,
+                    "label": "MarioRotationZ",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "absoluteBranch": false,
+                    "address": "8154B904",
+                    "baseIndex": 0,
+                    "label": "MarioRotationX",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "expanded": true,
+                    "groupEntries": [
+                        {
+                            "absoluteBranch": false,
+                            "address": "8154B8E0",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "typeIndex": 0,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Weird"
+                }
+            ],
+            "groupName": "Level"
+        },
+        {
+            "expanded": true,
+            "groupEntries": [
+                {
+                    "absoluteBranch": false,
+                    "address": "8156D924",
+                    "baseIndex": 0,
+                    "label": "WorldLevel",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "absoluteBranch": false,
+                    "address": "8156D7A4",
+                    "baseIndex": 0,
+                    "label": "WorldMapPosX",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "absoluteBranch": false,
+                    "address": "8156D7A8",
+                    "baseIndex": 0,
+                    "label": "WorldMapPosY",
+                    "typeIndex": 3,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "World"
+        },
+        {
+            "groupEntries": [
+                {
+                    "absoluteBranch": false,
+                    "address": "815DBB74",
+                    "baseIndex": 0,
+                    "label": "Mushrom",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "absoluteBranch": false,
+                    "address": "815DBB78",
+                    "baseIndex": 0,
+                    "label": "FireFlower",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "absoluteBranch": false,
+                    "address": "815DBB80",
+                    "baseIndex": 0,
+                    "label": "IceFlower",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "absoluteBranch": false,
+                    "address": "815DBB7C",
+                    "baseIndex": 0,
+                    "label": "Probeller",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "absoluteBranch": false,
+                    "address": "815DBB84",
+                    "baseIndex": 0,
+                    "label": "Pinguin Suit",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "absoluteBranch": false,
+                    "address": "815DBB88",
+                    "baseIndex": 0,
+                    "label": "Mini mushrom",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "absoluteBranch": false,
+                    "address": "815DBB8C",
+                    "baseIndex": 0,
+                    "label": "Star",
+                    "typeIndex": 2,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "ItemInv"
+        }
+    ]
+}
