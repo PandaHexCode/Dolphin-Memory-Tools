@@ -1,6 +1,11 @@
 {
+    "structDefs": {
+        "rootNode": [
+        ]
+    },
     "watchList": [
         {
+            "absoluteBranch": false,
             "address": "805104B4",
             "baseIndex": 0,
             "label": "MarioPosX",
@@ -8,6 +13,7 @@
             "unsigned": true
         },
         {
+            "absoluteBranch": false,
             "address": "805104B8",
             "baseIndex": 0,
             "label": "MarioPosY",
@@ -15,6 +21,15 @@
             "unsigned": true
         },
         {
+            "absoluteBranch": false,
+            "address": "80510518",
+            "baseIndex": 0,
+            "label": "MarioScaleY",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "absoluteBranch": false,
             "address": "805104BC",
             "baseIndex": 0,
             "label": "MarioPosZ",
@@ -22,6 +37,15 @@
             "unsigned": true
         },
         {
+            "absoluteBranch": false,
+            "address": "80510510",
+            "baseIndex": 0,
+            "label": "MarioRotationX",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "absoluteBranch": false,
             "address": "80513CE0",
             "baseIndex": 0,
             "label": "MarioHP",
@@ -29,6 +53,7 @@
             "unsigned": true
         },
         {
+            "absoluteBranch": false,
             "address": "80511A40",
             "baseIndex": 0,
             "label": "MarioScore",
@@ -36,6 +61,7 @@
             "unsigned": true
         },
         {
+            "absoluteBranch": false,
             "address": "80511A3C",
             "baseIndex": 0,
             "label": "3DTimer",
